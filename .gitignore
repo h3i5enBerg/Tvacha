@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Python / Backend
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Local Databases & Logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
